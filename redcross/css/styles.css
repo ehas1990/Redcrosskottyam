@@ -1085,6 +1085,14 @@ header.one-page .navbar-nav > li > a span {
   position: relative;
   
 }
+.text-padding
+{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.sectionsecondary-bg {
+  background: #F9FAFB !important;
+}
 .section-heading-wrapper-alt p,
 .section-heading-wrapper-alt h4 {
   font-size: 22px;
