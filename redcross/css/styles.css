@@ -6380,4 +6380,147 @@ span.border-bold-dashed {
   width: 90px;
   height:90px;
 }
+
+h2, details{
+  display:inline;
+}
+
+details {
+  position:relative;
+}
+details summary {
+  display:block;
+  cursor: pointer;
+  color: red;
+}
+details summary:focus {
+  outline:none;
+}
+details[open] {
+  display:block;
+  padding-bottom:25px;
+
+  animation: open .2s linear;
+}
+details[open] summary {
+  position:absolute;
+  bottom: 0;
+  left:0;
+}
+
+details #open{padding-left:5px;text-align:middle;}
+details #open:after{
+    display: inline-block;
+    position:relative;
+    top: -3px;
+    padding-left: 8px;
+    content: "\00bb";
+    transform: rotate(90deg);
+}
+details[open] #open{display:none;}
+details #close{display:none;}
+details[open] #close{display:block;}
+
+::-webkit-details-marker {display: none;}
+
+
+
+
+
+@keyframes open {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 /*# sourceMappingURL=styles.css.map */
+.section-volunteer {
+  margin: 0px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+
+  background-color: transparent;
+  background-image: url("../images/About_img.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0px solid rgb(255, 255, 255);
+  background-position-y: -255px;
+}
+.section-volunteer
+{  margin: 0px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+
+  background-color: transparent;
+  background-image: url("../images/About_img.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0px solid rgb(255, 255, 255);
+  background-position-y: -255px;
+
+}
+.section-form {
+
+  background: linear-gradient(243deg, black, transparent);
+
+  height: 520px;
+}
+.padding-30
+{
+  padding:30px;
+}
+.section-donor
+{
+  margin: 0px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background-image:  url("../images/blood_2.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 0px solid rgb(255, 255, 255);
+  background-color: #000;
+}
+.page-header1 {
+  margin: 0;
+  padding: 100px 0 100px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background-attachment: scroll;
+  background-color: transparent;
+  background-image: url('../images/blood_1.jpg');
+  background-repeat: no-repeat;
+  background-size: initial;
+  border: 0px solid #FFF;
+  background-size: cover;
+}
+#gallery-img
+{
+  height: 250px;
+  width: 350px;
+}
+.section-intern
+{
+  margin: 0px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+
+  background-color: transparent;
+  background-image: url("../images/img/img5.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0px solid rgb(255, 255, 255);
+
+}
+#gallery-box
+{
+  height:278px;
+}
