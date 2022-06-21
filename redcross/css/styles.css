@@ -1,4 +1,4 @@
-/**
+/**Our Location
  * File: styles.css
  * Description : Contains all necessary styling for the Reddrop Buddies - Blood Donation Campaign & Multi-Concept Activism Template
  * Author: xenioushk
@@ -3188,6 +3188,7 @@ a.btn-cta-3:hover {
 }
 .contact-info address {
   display: inline-block;
+  margin-left: 20px;
 }
 .contact-info a {
   color: #333333;
@@ -6523,4 +6524,8 @@ details[open] #close{display:block;}
 #gallery-box
 {
   height:278px;
+}
+.contact-info
+{
+  display: flex;
 }
