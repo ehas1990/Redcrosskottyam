@@ -4916,7 +4916,7 @@ footer p {
 }
 .footer-widget-area .footer-useful-links li {
   margin-bottom: 8px;
-  width: 50%;
+
   float: left;
 }
 .footer-widget-area .fa-footer {
@@ -6480,7 +6480,7 @@ details[open] #close{display:block;}
   overflow: hidden;
   z-index: 1;
   background-image:  url("../images/blood_2.jpg");
-  background-repeat: no-repeat;
+  background-repeat: round;
   background-size: contain;
   border: 0px solid rgb(255, 255, 255);
   background-color: #000;
@@ -6545,4 +6545,19 @@ margin-top:30px;
 #fa:hover
 {
   color:#8d8988;
+}
+.footer-subscription a i.fa {
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  color: #666;
+  background: #fafafa;
+  line-height: 24px;
+  font-size: 14px;
+  position: relative;
+  
+}
+.navbar-default .navbar-collapse {
+  border-color: #e7e7e7;
+  margin-top: 13px !important;
 }
