@@ -836,10 +836,7 @@ a.btn-load-more:hover {
   -moz-box-shadow: 0px 0px 5px 10px rgba(0, 0, 0, 0.03);
   box-shadow: 0px 0px 5px 10px rgba(0, 0, 0, 0.03);
 }
-.logo {
-  margin-top: 32px;
-  margin-bottom: 0;
-}
+
 .header-container {
   border-bottom: 0px solid #EEEEEE;
   padding-bottom: 0px;
@@ -6528,4 +6525,24 @@ details[open] #close{display:block;}
 .contact-info
 {
   display: flex;
+}
+.about-us-container1 {
+    background: #F9FAFB;
+    position: relative;
+    width: 632px;
+    z-index: 2;
+    padding: 42px 36px 32px;
+    margin-top: -36px;
+    margin-left: -90px;
+    height: 815px;
+}
+#fa
+{
+  color: #ef3d32;
+margin-top:30px;
+}
+
+#fa:hover
+{
+  color:#8d8988;
 }
