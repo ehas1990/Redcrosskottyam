@@ -154,16 +154,16 @@
         </section> <!-- end .page-header  -->
         <section class="section-donor">
             <div class="container">
-                    <div class="row padding-top-80">
+                    <div class="row padding-top-100">
                            <div class="col-md-12 col-sm-12">
                                   <div class="section-form">
                                     <div class="row padding-30">
                                         <div class="col-md-12 col-sm-12">
-                                            <h4 class="text-center text-highlighter-white">Volunteer Form</h4>
+                                            <h4 class="text-center text-highlighter-white">Blood Donor Form</h4>
                                         </div>    
                                     </div>        
                                     
-                                         <form action="" method="post">
+                                         <form action="Become-a-blood-donor.php" method="post">
                                                <div class="row padding-30">
                                                     <div class="col-md-6 col-sm-12">
                                                          <input type="text" name="name" placeholder="Enter the Username" class="form-control">
@@ -181,31 +181,53 @@
                                                     </div>
                                               </div>
                                               <div class="row padding-30">
-                                                <div class="col-md-6 col-sm-12">
-                                                    <select class="form-control">
-                                                        <option> Alappuzha</option>  
-                                                        <option> Ernakulam</option>       
-                                                        <option>  Idukki   </option>   
-                                                        <option>Kannur</option>
-                                                        <option>Kasaragod</option>
-                                                        <option>Kollam</option>
-                                                        <option>Kottayam</option>
-                                                        <option>Kozhikode</option>
-                                                        <option>Malappuram</option>
-                                                        <option>Palakkad</option>
-                                                        <option>Pathanamthitta</option>
-                                                        <option>Thiruvananthapuram</option>
-                                                        <option>Thrissur</option>
-                                                        <option>Wayanad</option>
-                                                        
+                                                    <div class="col-md-6 col-sm-12">
+                                                        <select class="form-control" name="disc">
+                                                            <option>Select the District</option>
+                                                            <option  name="disc"> Alappuzha</option>  
+                                                            <option  name="disc"> Ernakulam</option>       
+                                                            <option  name="disc">  Idukki   </option>   
+                                                            <option  name="disc">Kannur</option>
+                                                            <option  name="disc">Kasaragod</option>
+                                                            <option  name="disc">Kollam</option>
+                                                            <option  name="disc">Kottayam</option>
+                                                            <option  name="disc">Kozhikode</option>
+                                                            <option  name="disc">Malappuram</option>
+                                                            <option  name="disc">Palakkad</option>
+                                                            <option  name="disc">Pathanamthitta</option>
+                                                            <option  name="disc">Thiruvananthapuram</option>
+                                                            <option  name="disc">Thrissur</option>
+                                                            <option  name="disc">Wayanad</option>
                                                             
-                                                    </select>
-                                                </div>
-                                                <div class="col-md-6 col-sm-12">
-                                                    <input type="text" name="taulk" placeholder="Enter the Taulk" class="form-control">
-                                                </div>
-                                          </div>
-                                              <div class="row padding-30">
+                                                                
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-md-6 col-sm-12">
+                                                        <input type="text" name="taulk" placeholder="Enter the Taulk" class="form-control">
+                                                    </div>
+                                               </div>
+                                               <div class="row padding-30">
+                                                        <div class="col-md-6 col-sm-12">
+                                                            <select class="form-control" name="blood">
+                                                                <option> Select Blood Group</option>  
+                                                                <option name="blood"> A+</option>       
+                                                                <option name="blood">  A-  </option>   
+                                                                <option name="blood">B+</option>
+                                                                <option name="blood">B-</option>
+                                                                <option name="blood">O+</option>
+                                                                <option name="blood">O-</option>
+                                                                <option name="blood">AB+</option>
+                                                                <option name="blood">AB-</option>
+                                                                
+                                                                
+                                                                    
+                                                            </select>
+                                                        </div>
+                                                        <div class="col-md-6 col-sm-12">
+                                                            <input type="text" name="place" placeholder="Enter the Place" class="form-control">
+                                                        </div>
+                                               </div>
+                                             <div class="row padding-30">
                                                 <div class="col-md-12 col-sm-12">
                                                     <div class="text-right">
                                                         <input type="submit" class="btn btn-danger btn-lg">
@@ -213,8 +235,9 @@
                                                     
                                                 </div>
                                                 
-                                          </div>
-                                         </form>
+                                              </div>
+                                        </form>
+                                     
                                   </div>
                            </div>
                     </div>

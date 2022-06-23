@@ -6463,11 +6463,15 @@ details[open] #close{display:block;}
   background-position-y: -255px;
 
 }
+.section-form1 {
+  background: linear-gradient(243deg, black, transparent);
+  height: 560px;
+}
 .section-form {
 
   background: linear-gradient(243deg, black, transparent);
 
-  height: 520px;
+  height: 620px;
 }
 .padding-30
 {
