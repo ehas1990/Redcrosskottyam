@@ -6,12 +6,13 @@ $name = $_POST['name'];
 $dob = $_POST['dob'];
 $phone= $_POST['phone'];
 $dis= $_POST['dis'];
+$email=$_POST['email'];
+$qualification=$_POST['qualification'];
+$sub="Redcross Kottayam-Become A Volunteer";
+$to = "redcrosskottayam@gmail.com";  
 
-$subject="Redcross Kottayam";
-$to = "ehasalpha@gmail.com";  
+$txt ="Name : ". $name . "\r\n dob : " . $dob . "\r\n  phone :" . $phone . "\r\n dis : . $dis . \r\n  qualification: . $qualification .";
 
-$txt ="Name : ". $name . "\r\n dob : " . $dob . "\r\n  phone :" . $phone . "\r\n dis : . $dic";
-$subject= ". $subject";
 $headers = "From:" . $email;
  
 if(mail($to,$sub,$txt,$headers)) {

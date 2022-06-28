@@ -5,17 +5,14 @@ error_reporting(E_ERROR | E_PARSE);
 $name = $_POST['name'];
 $dob = $_POST['dob'];
 $phone= $_POST['phone'];
-$email= $_POST['email'];
-$disc= $_POST['disc'];
-$taulk= $_POST['taulk'];
-$blood= $_POST['blood'];
-$taulk= $_POST['taulk'];
-
-$sub= "Redcross Kottayam-Become-a-blood-donor ";
+$qualification= $_POST['qualification'];
+$email=$_POST['email'];
+$address=$_POST['address'];
+$sub="Redcross Kottayam-Become An Intern";
 $to = "redcrosskottayam@gmail.com";  
 
-$txt ="Name : ". $name . "\r\n dob : " . $dob . "\r\n  phone :" . $phone . "\r\n email : " . $email .  "\r\n disc : " . $disc .  "\r\n taluk : " . $taulk .  "\r\n blood : " . $blood .  "\r\n taulk : . $taulk";
-$subject= "subject" .$subject;
+$txt ="Name : ". $name . "\r\n dob : " . $dob . "\r\n  phone :" . $phone ."\r\n  address :" . $address .  "\r\n qualification : . $qualification";
+
 $headers = "From:" . $email;
  
 if(mail($to,$sub,$txt,$headers)) {

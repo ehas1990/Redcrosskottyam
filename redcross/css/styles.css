@@ -764,8 +764,9 @@ a.btn-load-more:hover {
   color: #FFFFFF;
 }
 .top-bar p {
-  margin-top: 10px;
+  margin-top: -7px;
   color: #FFFFFF;
+  margin-left: 20px;
 }
 .top-bar-social {
   float: right;
@@ -6477,15 +6478,14 @@ details[open] #close{display:block;}
 {
   padding:30px;
 }
-.section-donor
-{
+.section-donor {
   margin: 0px;
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background-image:  url("../images/blood_2.jpg");
+  background-image: url("../images/blood_2.jpg");
   background-repeat: round;
-  background-size: contain;
+  background-size: cover;
   border: 0px solid rgb(255, 255, 255);
   background-color: #000;
 }

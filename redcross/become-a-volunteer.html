@@ -22,6 +22,7 @@
         <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" >
         <link href="css/venobox.css" rel="stylesheet" type="text/css" >
         <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="css/media.css" type="text/css">
         
     <body> 
 
@@ -36,14 +37,15 @@
 
                 <div class="container">
 
-                    <div class="row">
+                    <div class="row" id="row">
 
                         <div class="col-md-8 col-sm-12">
 
-                            <p>
-                                <span><i class="fa fa-envelope"></i>  redcrosskottayam@gmail.com</span>
-                                <span>&nbsp;<i class="fa fa-phone"></i> (+91)  7356047604 | 0481-2560238</span>
-                            </p>
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a href="mailto: redcrosskottayam@gmail.com" class="nav-link"><i class="fa fa-envelope"></i>  redcrosskottayam@gmail.com <p>info@redcrosskottayam.org</p> </a></li>
+                                <li class="nav-item"> <a href="tel:+917356047604 " class="nav-link"><i class="fa fa-phone"></i> (+91)  7356047604 <p>(+0481)2560238</p> </a></li>
+    
+                            </ul>
 
                         </div>
 
@@ -163,34 +165,42 @@
                                     
                                          <form action="become-a-volunteer.php" method="post">
                                                <div class="row padding-30">
-                                                    <div class="col-md-6 col-sm-12">
+                                                    <div class="col-md-6 col-sm-12" id="col-1">
                                                          <input type="text" name="name" placeholder="Enter the Username" class="form-control">
                                                     </div>
-                                                    <div class="col-md-6 col-sm-12">
+                                                    <div class="col-md-6 col-sm-12" id="col-2">
                                                         <input type="date" name="dob" placeholder="Enter the DOB" class="form-control">
                                                     </div>
                                                </div>
                                                <div class="row padding-30">
-                                                    <div class="col-md-6 col-sm-12">
-                                                        <input type="text" name="Phone" placeholder="Enter the Phone Number" class="form-control">
+                                                <div class="col-md-6 col-sm-12" id="col-1">
+                                                    <input type="text" name="qualification" placeholder="Enter the qualification" class="form-control">
+                                                </div>
+                                                <div class="col-md-6 col-sm-12" id="col-2">
+                                                    <input type="text" name="email" placeholder="Enter the Email" class="form-control">
+                                                </div>
+                                          </div>
+                                               <div class="row padding-30">
+                                                    <div class="col-md-6 col-sm-12" id="col-1">
+                                                        <input type="text" name="phone" placeholder="Enter the Phone Number" class="form-control">
                                                     </div>
-                                                    <div class="col-md-6 col-sm-12">
-                                                        <select class="form-control">
+                                                    <div class="col-md-6 col-sm-12" id="col-2">
+                                                        <select class="form-control" name="dis">
                                                             <option>Select the District</option>
-                                                            <option name="dis"> Alappuzha</option>  
-                                                            <option name="dis"> Ernakulam</option>       
-                                                            <option name="dis">  Idukki   </option>   
-                                                            <option name="dis">Kannur</option>
-                                                            <option name="dis">Kasaragod</option>
-                                                            <option name="dis">Kollam</option>
-                                                            <option name="dis">Kottayam</option>
-                                                            <option name="dis">Kozhikode</option>
-                                                            <option name="dis">Malappuram</option>
-                                                            <option name="dis">Palakkad</option>
-                                                            <option name="dis">Pathanamthitta</option>
-                                                            <option name="dis">Thiruvananthapuram</option>
-                                                            <option name="dis">Thrissur</option>
-                                                            <option name="dis">Wayanad</option>
+                                                            <option value="Alappuzha" name="dis"> Alappuzha</option>  
+                                                            <option value="Ernakulam" name="dis"> Ernakulam</option>       
+                                                            <option value="  Idukki" name="dis">  Idukki   </option>   
+                                                            <option value="Kannur" name="dis">Kannur</option>
+                                                            <option value="Kasaragod" name="dis">Kasaragod</option>
+                                                            <option value="Kollam" name="dis">Kollam</option>
+                                                            <option value="Kottayam" name="dis">Kottayam</option>
+                                                            <option value="Kozhikode" name="dis">Kozhikode</option>
+                                                            <option value="Malappuram" name="dis">Malappuram</option>
+                                                            <option value="Palakkad" name="dis">Palakkad</option>
+                                                            <option value="Pathanamthitta" name="dis">Pathanamthitta</option>
+                                                            <option value="Thiruvananthapuram" name="dis">Thiruvananthapuram</option>
+                                                            <option value="Thrissur" name="dis">Thrissur</option>
+                                                            <option value="Wayanad" name="dis">Wayanad</option>
                                                             
                                                                 
                                                         </select>
@@ -199,7 +209,7 @@
                                               <div class="row padding-30">
                                                 <div class="col-md-12 col-sm-12">
                                                     <div class="text-right">
-                                                        <input type="submit" class="btn btn-danger btn-lg">
+                                                        <input type="submit" class="btn btn-danger btn-lg" value="submit">
                                                     </div>
                                                     
                                                 </div>
@@ -266,8 +276,8 @@
                                         <i class="fa fa-location-arrow fa-contact"></i> <p>Indian Red Cross Society,<br>
                                             Kottayam District Branch, PB No.724,<br>
                                             Red Cross Tower, Nagampadom, Kottayam- 686001</p>
-                                        <i class="fa fa-envelope-o fa-contact"></i> <p><a href="#">redcrosskottayam@gmail.com</a></p>
-                                         <i class="fa fa-phone fa-contact"></i> <p>(+91)7356047604<br/>(+0481)-2560238</p>                              
+                                        <i class="fa fa-envelope-o fa-contact"></i> <p><a href="mailto: redcrosskottayam@gmail.com">redcrosskottayam@gmail.com info@redcrosskottayam.org</a></p>
+                                        <i class="fa fa-phone fa-contact"></i> <p><a href="tel:+917356047604 ">(+91)7356047604<br/>(+0481)-2560238</a></p>  
 
                                     </div>
 

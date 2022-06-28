@@ -1,0 +1,228 @@
+@media only screen 
+and (min-device-width: 210px) 
+and (max-device-width: 320px)
+{
+    .section-form1 {
+        background: linear-gradient(243deg, black, transparent);
+        height: fit-content !important;
+    }
+    .section-form {
+        background: linear-gradient(243deg, black, transparent);
+        height: fit-content !important;
+    }
+    #col-2
+    {
+        margin-top: 30px !important; 
+    }
+    .section-donor {
+        margin: 0px;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        background-image: url("../images/blood_2.jpg");
+        background-repeat: repeat;
+        background-size: 90px 90px 90px 90px !important;
+        border: 0px solid rgb(255, 255, 255);
+        background-position: right !important;
+       
+    }
+    .section-volunteer {
+        margin: 0px;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        background-color: transparent;
+        background-image: url("../images/About_img.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 0px solid rgb(255, 255, 255);
+        background-position-y: -1px !important;
+    }
+}
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+{
+    .section-form1 {
+        background: linear-gradient(243deg, black, transparent);
+        height: fit-content !important;
+    }
+    .section-volunteer {
+        margin: 0px;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        background-color: transparent;
+        background-image: url("../images/About_img.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 0px solid rgb(255, 255, 255);
+        background-position-y: -1px !important;
+    }
+    .section-form {
+        background: linear-gradient(243deg, black, transparent);
+        height: fit-content !important;
+    }
+    #col-2
+    {
+        margin-top: 30px !important; 
+    }
+    .section-donor {
+        margin: 0px;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        background-image: url("../images/blood_2.jpg");
+        background-repeat: repeat;
+        background-size: 90px 90px 90px 90px !important;
+        border: 0px solid rgb(255, 255, 255);
+        background-position: right !important;
+       
+    }
+
+}
+
+@media only screen 
+and (min-device-width: 480px) 
+and (max-device-width: 620px)
+{
+    .section-volunteer {
+        margin: 0px;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        background-color: transparent;
+        background-image: url("../images/About_img.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 0px solid rgb(255, 255, 255);
+        background-position-y: -1px !important;
+    }
+    .section-form {
+        background: linear-gradient(243deg, black, transparent);
+        height: fit-content !important;
+    }
+    #col-2
+    {
+        margin-top: 30px !important; 
+    }
+    .section-form1 {
+        background: linear-gradient(243deg, black, transparent);
+        height: fit-content !important;
+    }
+}
+@media only screen 
+and (min-device-width:620px) 
+and (max-device-width:720px)
+{  .section-volunteer {
+    margin: 0px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background-color: transparent;
+    background-image: url("../images/About_img.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0px solid rgb(255, 255, 255);
+    background-position-y: -1px !important;
+}
+    .section-form {
+        background: linear-gradient(243deg, black, transparent);
+        height: fit-content !important;
+    }
+    #col-2
+    {
+        margin-top: 30px !important; 
+    }
+    .section-form1 {
+        background: linear-gradient(243deg, black, transparent);
+        height: fit-content !important;
+    }
+}
+@media only screen 
+and (min-device-width:720px) 
+and (max-device-width:900px)
+{
+    .section-form1 {
+        background: linear-gradient(243deg, black, transparent);
+        height: fit-content !important;
+    }
+    .section-volunteer {
+        margin: 0px;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        background-color: transparent;
+        background-image: url("../images/About_img.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 0px solid rgb(255, 255, 255);
+        background-position-y: -1px !important;
+    }
+    .section-form {
+        background: linear-gradient(243deg, black, transparent);
+        height: fit-content !important;
+    }
+    #col-2
+    {
+        margin-top: 30px !important; 
+    }
+    .navbar-default .navbar-right {
+        float: none;
+        padding: 0;
+        margin: -20px 29px 0 0 !important;
+    }
+    .navbar-default .navbar-nav > li > a {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 13px !important;
+        color: #333333;
+        text-transform: uppercase;
+        padding-bottom: 24px;
+        margin-top: -57px !important;
+    }
+    #row
+    {
+        display: inline-block;
+    }
+}
+
+@media only screen 
+and (min-device-width:900px) 
+and (max-device-width:1200px)
+{
+    .navbar-default .navbar-right {
+        float: none;
+        padding: 0;
+        margin: -20px 29px 0 0 !important;
+    }
+    .navbar-default .navbar-nav > li > a {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 13px !important;
+        color: #333333;
+        text-transform: uppercase;
+        padding-bottom: 24px;
+        margin-top: -57px !important;
+    }
+    #row
+    {
+        display: inline-block;
+    }
+    #col-2
+    {
+        margin-top: 30px !important; 
+    }
+    .section-volunteer {
+        margin: 0px;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        background-color: transparent;
+        background-image: url("../images/About_img.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 0px solid rgb(255, 255, 255);
+        background-position-y: -46px !important;
+    }
+}
