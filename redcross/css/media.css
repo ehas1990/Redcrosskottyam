@@ -2,6 +2,13 @@
 and (min-device-width: 210px) 
 and (max-device-width: 320px)
 {
+    #preloader span {
+ 
+        position: absolute;
+      margin-left: 5% !important;
+      margin-top: 40% !important;
+    
+      }
     .section-form1 {
         background: linear-gradient(243deg, black, transparent);
         height: fit-content !important;
@@ -43,6 +50,13 @@ and (max-device-width: 320px)
 and (min-device-width: 320px) 
 and (max-device-width: 480px)
 {
+    #preloader span {
+ 
+        position: absolute;
+      margin-left: 5% !important;
+      margin-top: 25% !important;
+    
+      }
     .section-form1 {
         background: linear-gradient(243deg, black, transparent);
         height: fit-content !important;
@@ -86,6 +100,14 @@ and (max-device-width: 480px)
 and (min-device-width: 480px) 
 and (max-device-width: 620px)
 {
+    
+    #preloader span {
+ 
+        position: absolute;
+      margin-left: 8% !important;
+      margin-top: 10% !important;
+    
+      }
     .section-volunteer {
         margin: 0px;
         position: relative;
@@ -114,7 +136,15 @@ and (max-device-width: 620px)
 @media only screen 
 and (min-device-width:620px) 
 and (max-device-width:720px)
-{  .section-volunteer {
+{
+    #preloader span {
+ 
+        position: absolute;
+      margin-left: 20% !important;
+      margin-top: 10% !important;
+    
+      }
+      .section-volunteer {
     margin: 0px;
     position: relative;
     overflow: hidden;
@@ -143,6 +173,13 @@ and (max-device-width:720px)
 and (min-device-width:720px) 
 and (max-device-width:900px)
 {
+    #preloader span {
+ 
+        position: absolute;
+      margin-left: 20% !important;
+      margin-top: 10% !important;
+    
+      }
     .section-form1 {
         background: linear-gradient(243deg, black, transparent);
         height: fit-content !important;
