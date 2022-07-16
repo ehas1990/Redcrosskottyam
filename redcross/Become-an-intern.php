@@ -21,5 +21,5 @@ echo "<h1>Sent Successfully! Thank you ".$name.", We will contact you shortly!</
 } else {
     echo "The email message was not sent.";
 }
-
+require_once "Become-an-intern.html";
 ?>
