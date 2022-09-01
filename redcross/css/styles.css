@@ -287,7 +287,7 @@ p {
   color: #333333;
   font-style: normal;
   font-weight: 400;
-  letter-spacing: 0.01em;
+  /* letter-spacing: 0.01em; */
   margin: 0 0 12px;
   padding: 0;
 }
@@ -990,15 +990,16 @@ header.one-page .navbar-nav > li > a span {
 }
 .section-heading-wrapper p,
 .section-heading-wrapper h4 {
-  text-align: center;
-  font-size: 22px;
+  text-align:justify;
+  /* font-size: 22px; */
+  font-size: 18px;
   line-height: 32px;
   font-weight: 400;
   font-family: 'Montserrat', sans-serif;
   color: #484848;
-  margin-bottom: 24px;
+  /* margin-bottom: 24px;
   padding: 30px 0 0 0px;
-  word-spacing: 0em;
+  word-spacing: 0em; */
 }
 .section-heading-wrapper span.heading-separator {
   display: inline-block;
@@ -4576,7 +4577,7 @@ ul.custom-bullet-list li:before {
   padding-bottom: 0px;
 }
 .gallery-light-box {
-  display: block;
+  /* display: block; */
   overflow: hidden;
   position: relative;
 }
@@ -6059,9 +6060,7 @@ span.border-bold-dashed {
   .section-heading:before {
     display: none;
   }
-  .section-subheading {
-    display: none;
-  }
+ 
   .page-header {
     padding: 80px 0;
   }
@@ -6565,4 +6564,31 @@ margin-top:30px;
   position: absolute;
 margin-left: 30%;
 margin-top: 10%;
+}
+#item-list
+{
+  display: inline-flex;
+}
+.me-1
+{
+  margin-left:1em;
+}
+.text-bounce
+{
+  display: inline-block;
+	
+	font-size: inherit;
+	text-rendering: auto;
+  animation-name: fa-bounce;
+
+	
+	animation-delay: var(--fa-animation-delay,0);
+
+	animation-direction: var(--fa-animation-direction,normal);
+	
+	animation-duration: var(--fa-animation-duration,5.5s);
+	
+	animation-iteration-count: var(--fa-animation-iteration-count,infinite);
+	
+	animation-timing-function: var(--fa-animation-timing,cubic-bezier(.28,.84,.42,1));
 }
