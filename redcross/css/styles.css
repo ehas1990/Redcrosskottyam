@@ -6592,3 +6592,7 @@ margin-top: 10%;
 	
 	animation-timing-function: var(--fa-animation-timing,cubic-bezier(.28,.84,.42,1));
 }
+.dropdown-menu
+    {
+        width: 290px !important;
+    }
