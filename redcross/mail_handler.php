@@ -1,24 +1,30 @@
 <?php
+ini_set( 'display_errors', 1 );
+error_reporting( E_ALL );
 error_reporting(E_ERROR | E_PARSE);
-	if(isset($_POST['submit'])){
-		$name=$_POST['name'];
-		$email=$_POST['email'];
-		$phone=$_POST['phone'];
-		$msg=$_POST['msg'];
-    //   
-		$to='redcrosskottayam@gmail.com';
-		$to='info@redcrosskottayam.org';
-		$subject='RedCross Kottayam';
-        $txt ="Name : ". $name . "\r\n email : " . $email . "\r\n  phone :" . $phone . "\r\n  msg :" . $msg;
-		$headers="From: ".$email;
+$name = $_POST['name'];
+$phone = $_POST['phone'];
+$email= $_POST['email'];
 
-		if(mail($to,$subject,$txt,$headers)){
-			echo "<h1>Sent Successfully! Thank you ".$name.", We will contact you shortly!</h1>";
-		}
-		else{
-			echo "Something went wrong!";
-		}
-	}
+$msg= $_POST['msg'];
+$subject="Red Cross Kottyam";
+$to="ehasalpha@gmail.com";
+// $to = "freiberggermanacademy@gmail.com";
+$txt ="Name : ". $name . "\r\n phone : " . $phone . "\r\n  Msg :" . $msg;
+$sub= " $sub";
+$headers = "From:" . $email;
+ 
+if(mail($to,$sub,$txt,$headers)) {
+
+
+  "Successfully Submitted";
+
+} else {
+  
+ 
+ "Somethin wentwrong";
+  
+}
 
 require_once "contact.html";
 ?>

@@ -1154,6 +1154,7 @@ header.one-page .navbar-nav > li > a span {
   margin: 0px 0 0;
   color: #FFFFFF;
   font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(178deg, black, transparent);
 }
 #slider_1 .slider-content h2 span {
   color: #EF3D32;
