@@ -6597,3 +6597,75 @@ margin-top: 10%;
     {
         width: 290px !important;
     }
+    .tile
+{
+  width:80%;
+  margin:60px auto;
+}
+/* tab */
+.nav-tabs>li {
+  float: left;
+  margin-bottom: -1px;
+  font-size: 12px;
+}
+.aboutus-container {
+  background: #F9FAFB;
+  position: relative;
+  width: 858px;
+  z-index: 2;
+  padding: 42px 36px 32px;
+  margin-top: 15px;
+}
+.mr-2
+{
+  margin-right: 20px;
+}
+.mr_3
+{
+  display: inline-flex;
+}
+
+.theme-custom-boxshadow
+{
+  border-style: solid;
+  border-top-width: 10px;
+  border-bottom-width: 10px;
+  border-right-width:10px ;
+  border-left-width:10px ;
+  margin-left: 0px;
+  width: 300px;
+
+}
+.themecustom-box-shadow {
+  border-style: solid;
+  border-top-width: 10px;
+  border-bottom-width: 10px;
+  border-right-width: 10px;
+  border-left-width: 10px;
+  margin-left: 86px;
+  margin-top: -30px;
+}
+.custom-box
+{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.home-safety
+{
+  background: #F9FAFB;
+  position: relative;
+  width: 591px;
+  z-index: 2;
+  padding: 42px 36px 32px;
+  margin-top: 42px;
+
+}
+.homefire-img {
+  position: relative;
+  overflow: hidden;
+  margin-top: 68px;
+}
+.sectionheatwave-bg {
+  background: #e7e6e6 !important;
+  height: 578px;
+}
