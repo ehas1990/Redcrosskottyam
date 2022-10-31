@@ -909,7 +909,7 @@ a.logo img {
 .navbar-default .navbar-nav li ul.drop-down li a {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 13px;
   display: inline-block;
   text-decoration: none;
   display: block;
@@ -6669,3 +6669,74 @@ margin-top: 10%;
   background: #e7e6e6 !important;
   height: 490px;
 }
+.margin-top-90
+{
+  margin-top: 140px;
+}
+.about-hurrican-container {
+  background: #e4e7eb;
+  position: relative;
+  width: 632px;
+  z-index: 2;
+  padding: 42px 36px 32px;
+  margin-top: -19px;
+}
+.hurrican-heading-wrapper h2 {
+  text-align: center;
+  position: relative; 
+  font-size: -6px;
+  line-height: 2px;
+  margin-bottom: 62px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0em;
+  font-weight: 700;
+  color: #555555;
+  margin-top: 10px !important;
+}
+/*  */
+#dropdownmenu {
+  width: 220px;
+  
+ 
+}
+             
+.dropdown-submenu {
+  position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: -100%;
+  margin-top: -2px;
+ 
+  /* border-radius: 0 6px 6px 6px; */
+}
+
+.dropdown-submenu > a:after {
+border-color: transparent transparent transparent #333;
+border-style: solid;
+
+content: " ";
+display: block;
+float: right;  
+height: 0;     
+margin-right: -10px;
+margin-top: 5px;
+width: 0;
+}
+
+
+@media (max-width: 767px) {
+
+
+
+
+
+}
+
+@media (min-width: 768px) {
+
+  ul.nav li> ul.dropdown-menu {
+display: block;
+}
+
+}  
