@@ -6067,13 +6067,16 @@ span.border-bold-dashed {
   }
   /*----- Section Heading ----*/
   .section-heading-wrapper {
-    margin-bottom: 32px;
+    margin-bottom:48px;
   }
   .section-heading-wrapper h2 {
-    font-size: 32px;
-    line-height: 36px;
+    font-size: 19px;
+    line-height: 31px;
     margin-bottom: 20px;
-  }
+}
+  h3 {
+    font-size: 18px;
+}
   .section-heading-wrapper-alt {
     margin-bottom: 32px;
   }
@@ -6292,7 +6295,7 @@ span.border-bold-dashed {
     margin: 0;
   }
   .page-header h3 {
-    font-size: 24px;
+    font-size: 15px;
     line-height: 32px;
     margin: 12px 0;
   }
@@ -6727,7 +6730,43 @@ width: 0;
 
 @media (max-width: 767px) {
 
-
+  #dropdownmenu {
+    width: 220px;
+    display: block;
+   
+  }
+  .dropdown-submenu a
+  {
+    color: #ffffff !important;
+      font-weight: bold !important;
+  }
+  #dropdownmenu a{
+    color: #ffffff !important;
+      font-weight: bold !important;
+  }         
+  .dropdown-submenu {
+    position:relative;
+  }
+  .dropdown-submenu>.dropdown-menu {
+    top: 0;
+ 
+    margin-top: -2px;
+   
+    /* border-radius: 0 6px 6px 6px; */
+  }
+  
+  .dropdown-submenu > a:after {
+  border-color: transparent transparent transparent #333;
+  border-style: solid;
+  
+  content: " ";
+  display: block;
+  float: right;  
+  height: 0;     
+  margin-right: -10px;
+  margin-top: 5px;
+  width: 0;
+  }
 
 
 
@@ -6738,5 +6777,51 @@ width: 0;
   ul.nav li> ul.dropdown-menu {
 display: block;
 }
+#dropdownmenu {
+  width: 220px;
+  display: block;
+ 
+}
+             
+.dropdown-submenu {
+  position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
 
+  margin-top: -2px;
+ 
+  /* border-radius: 0 6px 6px 6px; */
+}
+
+.dropdown-submenu > a:after {
+border-color: transparent transparent transparent #333;
+border-style: solid;
+
+content: " ";
+display: block;
+float: right;  
+height: 0;     
+margin-right: -10px;
+margin-top: 5px;
+width: 0;
+}
 }  
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  color: #fffafa !important;
+  cursor: default !important;
+  background-color: #ff0b0b !important;
+
+}
+.nav-tabs {
+   border-bottom: 0px solid #ddd !important; 
+}
+#image
+{
+  height:200px;
+   width:330px;
+}
+.map{
+  width:600px;
+   height:450px;
+}

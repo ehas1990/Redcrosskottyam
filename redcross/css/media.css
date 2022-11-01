@@ -68,6 +68,42 @@ and (max-device-width: 320px)
         border: 0px solid rgb(255, 255, 255);
         background-position-y: -1px !important;
     }
+    .aboutus-container {
+       
+        position: relative;
+        width:300px !important; 
+        z-index: 2;
+        padding: 42px 36px 32px;
+        margin-top: 15px;
+    }
+    .display-flex
+    {
+        display: flex;
+    }
+    #image {
+        height: 200px;
+        width: 260px;
+    }
+    .home-safety {
+        background: #F9FAFB;
+        position: relative;
+        width: 290px;
+        z-index: 2;
+        padding: 42px 36px 32px;
+        margin-top: 42px;
+    }
+    .about-hurrican-container {
+        background: #e4e7eb;
+        position: relative;
+        width: 299px !important;
+        z-index: 2;
+        padding: 42px 36px -8px !important;
+        margin-top: -19px;
+        font-size: 14px;
+    }
+    .hurrican-heading {
+         font-size:18px !important;
+    }
 }
 @media only screen 
 and (min-device-width: 320px) 
@@ -75,7 +111,7 @@ and (max-device-width: 480px)
 {   
     iframe
     {
-        width: 400px !important;
+        width: 300px !important;
     }
     #item-list_1, #item-list
     {
@@ -139,17 +175,60 @@ and (max-device-width: 480px)
         background-position: right !important;
        
     }
-
+    .aboutus-container {
+       
+        position: relative;
+        width:300px !important; 
+        z-index: 2;
+        padding: 42px 36px 32px;
+        margin-top: 15px;
+    }
+    .display-flex
+    {
+        display: flex;
+    }
+    #image {
+        height: 200px;
+        width: 260px;
+    }
+    .home-safety {
+        background: #F9FAFB;
+        position: relative;
+        width: 290px;
+        z-index: 2;
+        padding: 42px 36px 32px;
+        margin-top: 42px;
+    }
+    .about-hurrican-container {
+        background: #e4e7eb;
+        position: relative;
+        width: 299px !important;
+        z-index: 2;
+        padding: 42px 36px -8px !important;
+        margin-top: -19px;
+        font-size: 14px;
+    }
+    .hurrican-heading {
+        font-size: 19px;
+    }
 }
 
 @media only screen 
 and (min-device-width: 480px) 
 and (max-device-width: 620px)
 {
-    iframe
-    {
-        width: 280px !important;
+    .page-header h3 {
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 24px !important;
+        line-height: 24px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        margin: 24px 0;
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
     }
+  
     #item-list_1, #item-list
     {
       display: flex !important;
@@ -205,14 +284,70 @@ and (max-device-width: 620px)
         background: linear-gradient(243deg, black, transparent);
         height: fit-content !important;
     }
+    .aboutus-container {
+       
+        position: relative;
+        width:500px !important; 
+        z-index: 2;
+        padding: 42px 36px 32px;
+        margin-top: 15px;
+    }
+    .display-flex
+    {
+        display: flex;
+    }
+    #image {
+        height: 200px;
+        width: 460px;
+    }
+    .home-safety {
+        background: #F9FAFB;
+        position: relative;
+        width: 460px;
+        z-index: 2;
+        padding: 42px 36px 32px;
+        margin-top: 42px;
+    }
+    .about-hurrican-container {
+        background: #e4e7eb;
+        position: relative;
+        width: 499px !important;
+        z-index: 2;
+        padding: 42px 36px -8px !important;
+        margin-top: -19px;
+        font-size: 14px;
+    }
+    .hurrican-heading {
+        font-size: 19px;
+    }
+    .section-heading-wrapper h2 {
+        font-size: 16px !important;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+    .nav > li > a {
+        padding: 15px 8px !important;
+        padding-bottom: 22px;
+    }
+    .section-heading-wrapper {
+        margin-bottom: 53px !important;
+    }
+    .footer-widget-area .footer-useful-links {
+        clear: both;
+        width: 300px !important;
+    }
+    .map
+    {
+        width:460px !important;
+    }
 }
 @media only screen 
 and (min-device-width:620px) 
 and (max-device-width:720px)
 {
-    iframe
+    .map
     {
-        width: 320px !important;
+        width:630px !important;
     }
     #item-list_1, #item-list
     {
@@ -268,11 +403,129 @@ and (max-device-width:720px)
         background: linear-gradient(243deg, black, transparent);
         height: fit-content !important;
     }
+    .aboutus-container {
+       
+        position: relative;
+        width:671px !important; 
+        z-index: 2;
+        padding: 42px 36px 32px;
+        margin-top: 15px;
+    }
+    .display-flex
+    {
+        display: flex;
+    }
+    #image {
+        height: 280px;
+        width: 580px;
+    }
+    .home-safety {
+        background: #F9FAFB;
+        position: relative;
+        width:639px;
+        z-index: 2;
+        padding: 42px 36px 32px;
+        margin-top: 42px;
+    }
+    .about-hurrican-container {
+        background: #e4e7eb;
+        position: relative;
+        width: 673px !important;
+        z-index: 2;
+        padding: 42px 36px -8px !important;
+        margin-top: -19px;
+        font-size: 14px;
+    }
+    .hurrican-heading {
+        font-size: 19px;
+    }
+    .section-heading-wrapper h2 {
+        font-size: 16px !important;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+    .nav > li > a {
+        padding: 15px 8px !important;
+        padding-bottom: 22px;
+    }
+    .section-heading-wrapper {
+        margin-bottom: 53px !important;
+    }
+    .footer-widget-area .footer-useful-links {
+        clear: both;
+        width: 300px !important;
+    }
+    .page-header h3 {
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 29px !important;
+        line-height: 28px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        margin: 24px 0;
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+    }
 }
 @media only screen 
 and (min-device-width:720px) 
 and (max-device-width:900px)
 { 
+    .hurrican-heading-wrapper h2 {
+        text-align: center;
+        position: relative;
+        font-size: -6px;
+        line-height: 2px;
+        margin-bottom: 62px;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 0em;
+        font-weight: 700;
+        color: #555555;
+        margin-top: 10px !important;
+        font-size: 20px !important;
+    }
+    .about-hurrican-container {
+        background: #e4e7eb;
+        position: relative;
+        width: 720px !important;
+        z-index: 2;
+        padding: 42px 36px 32px;
+        margin-top: -19px;
+    }
+    .aboutus-container {
+        background: #F9FAFB;
+        position: relative;
+        width: 821px;
+        z-index: 2;
+        padding: 42px 36px 32px;
+        margin-top: 15px;
+    }
+    .home-safety {
+        background: #F9FAFB;
+        position: relative;
+        width: 643px;
+        z-index: 2;
+        padding: 42px 36px 32px;
+        margin-top: 42px;
+    }
+    #image {
+        height: 262px !important;
+        width: 520px !important;
+    }
+    .mr_3 {
+        display: flex;
+    }
+    .section-heading-wrapper h2 {
+        text-align: center;
+        position: relative;
+        font-size: 30px !important;
+        line-height: 42px;
+        margin-bottom: 20px;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 0em;
+        font-weight: 700;
+        color: #555555;
+    }
     iframe
     {
         width: 320px !important;
@@ -367,9 +620,9 @@ and (max-device-width:900px)
 and (min-device-width:900px) 
 and (max-device-width:1200px)
 {  
-    iframe
+    .display-flex
     {
-        width: 320px !important;
+        display: flex;
     }
     #nav-left_red
     {
@@ -423,5 +676,119 @@ and (max-device-width:1200px)
         background-size: cover;
         border: 0px solid rgb(255, 255, 255);
         background-position-y: -46px !important;
+    }
+    .hurrican-heading-wrapper h2 {
+        text-align: center;
+        position: relative;
+        font-size: -6px;
+        line-height: 2px;
+        margin-bottom: 62px;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 0em;
+        font-weight: 700;
+        color: #555555;
+        margin-top: 10px !important;
+        font-size: 20px !important;
+    }
+    .about-hurrican-container {
+        background: #e4e7eb;
+        position: relative;
+        width: 720px !important;
+        z-index: 2;
+        padding: 42px 36px 32px;
+        margin-top: -19px;
+    }
+    .hurrican-heading-wrapper h2 {
+        text-align: center;
+        position: relative;
+        font-size: -6px;
+        line-height: 2px;
+        margin-bottom: 62px;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 0em;
+        font-weight: 700;
+        color: #555555;
+        margin-top: 10px !important;
+        font-size: 20px !important;
+    }
+    .about-hurrican-container {
+        background: #e4e7eb;
+        position: relative;
+        width:939px !important;
+        z-index: 2;
+        padding: 42px 36px 32px;
+        margin-top: -19px;
+    }
+    .about-us-container {
+        background: #F9FAFB;
+        position: relative;
+        width: 939px !important;
+        z-index: 2;
+        padding: 42px 36px 32px;
+        margin-top: 15px;
+    }
+    .home-safety {
+        background: #F9FAFB;
+        position: relative;
+        width: 643px;
+        z-index: 2;
+        padding: 42px 36px 32px;
+        margin-top: 42px;
+    }
+   
+    .mr_3 {
+        display: flex;
+    }
+    .section-heading-wrapper h2 {
+        text-align: center;
+        position: relative;
+        font-size: 30px !important;
+        line-height: 42px;
+        margin-bottom: 20px;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 0em;
+        font-weight: 700;
+        color: #555555;
+    }
+    .home-safety {
+        background: #F9FAFB;
+        position: relative;
+        width: 967px !important;
+        z-index: 2;
+        padding: 42px 36px 32px;
+        margin-top: 42px;
+    }
+    #image {
+        height: 262px !important;
+        width: 260px !important;
+    }
+    .mr_3 {
+        display: flex;
+    }
+    .section-heading-wrapper h2 {
+        text-align: center;
+        position: relative;
+        font-size: 30px !important;
+        line-height: 42px;
+        margin-bottom: 20px;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 0em;
+        font-weight: 700;
+        color: #555555;
+    }
+    .sectionheatwave-bg {
+        background: #e7e6e6 !important;
+        height: 580px !important;
+    }
+    .map{
+        width:480px !important;
+    }
+    .aboutus-container {
+        background: #F9FAFB;
+        position: relative;
+        width: 767px !important;
+        z-index: 2;
+        padding: 42px 36px 32px;
+        margin-top: 15px;
     }
 }
