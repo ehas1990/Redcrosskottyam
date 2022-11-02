@@ -968,7 +968,7 @@ header.one-page .navbar-nav > li > a span {
 .section-heading-wrapper h2 {
   text-align: center;
   position: relative;
-  font-size: 42px;
+  font-size: 38px;
   line-height: 42px;
   margin-bottom: 20px;
   font-family: 'Montserrat', sans-serif;
@@ -6824,4 +6824,9 @@ width: 0;
 .map{
   width:600px;
    height:450px;
+}
+.event-layout1 .event-img {
+  /* float: left; */
+  margin: 0;
+  /* width: 40%; */
 }
